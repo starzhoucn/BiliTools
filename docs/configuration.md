@@ -10,6 +10,8 @@
   - [腾讯云函数（SCF）配置](#腾讯云函数scf配置)
 - [Github Actions secrets](#github-actions-secrets)
 - [环境变量](#环境变量)
+- [附录](#附录)
+  - [SCF_MEMORY_SIZE 允许的值](#scf_memory_size-允许的值)
 
 ## 配置文件路径
 
