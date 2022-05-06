@@ -1,8 +1,10 @@
 ## 1. 下载最新版的 [tencent_scf.zip 压缩包](https://github.com/catlair/BiliTools/releases/latest)
 
 [Gitee 备份下载地址](https://gitee.com/catlair/BiliTools/releases/)
-加速下载
+
+加速下载：
 <https://ghproxy.com/https://github.com/catlair/BiliTools/releases/download/v0.4.3/tencent_scf.zip>
+
 把 v0.4.3 替换成最新版本号即可
 
 ![image](./images/tencent_scf.png)
@@ -37,9 +39,9 @@
 
 部署后点击运行，查看是否运行成功，如若失败，请根据输出内容修改后重试
 
-当然也可以添加环境变量 [`BILI_SCF_CONFIG`](./configuration.md#环境变量)  
+当然也可以添加环境变量 [`BILITOOLS_CONFIG`](./configuration.md#环境变量)  
 这样就不用每次更新后都新建 `config.json` 文件  
-文件配置优先级高于 `BILI_SCF_CONFIG`
+文件配置优先级高于 `BILITOOLS_CONFIG`
 
 ![bili-scf-config](images/bili-scf-config.png)
 
